@@ -1,0 +1,243 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDC5874016861646006ABDCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDC5873F16861646006ABDCB /* Foundation.framework */; };
+		BDC5874316861646006ABDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC5874216861646006ABDCB /* main.m */; };
+		BDC5874716861646006ABDCB /* prog3.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = BDC5874616861646006ABDCB /* prog3.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDC5873916861646006ABDCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				BDC5874716861646006ABDCB /* prog3.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BDC5873B16861646006ABDCB /* prog3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog3; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDC5873F16861646006ABDCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BDC5874216861646006ABDCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDC5874516861646006ABDCB /* prog3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "prog3-Prefix.pch"; sourceTree = "<group>"; };
+		BDC5874616861646006ABDCB /* prog3.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = prog3.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDC5873816861646006ABDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC5874016861646006ABDCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDC5873016861646006ABDCB = {
+			isa = PBXGroup;
+			children = (
+				BDC5874116861646006ABDCB /* prog3 */,
+				BDC5873E16861646006ABDCB /* Frameworks */,
+				BDC5873C16861646006ABDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDC5873C16861646006ABDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5873B16861646006ABDCB /* prog3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDC5873E16861646006ABDCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5873F16861646006ABDCB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDC5874116861646006ABDCB /* prog3 */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5874216861646006ABDCB /* main.m */,
+				BDC5874616861646006ABDCB /* prog3.1 */,
+				BDC5874416861646006ABDCB /* Supporting Files */,
+			);
+			path = prog3;
+			sourceTree = "<group>";
+		};
+		BDC5874416861646006ABDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDC5874516861646006ABDCB /* prog3-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDC5873A16861646006ABDCB /* prog3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC5874A16861646006ABDCB /* Build configuration list for PBXNativeTarget "prog3" */;
+			buildPhases = (
+				BDC5873716861646006ABDCB /* Sources */,
+				BDC5873816861646006ABDCB /* Frameworks */,
+				BDC5873916861646006ABDCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prog3;
+			productName = prog3;
+			productReference = BDC5873B16861646006ABDCB /* prog3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDC5873216861646006ABDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ClassroomM;
+			};
+			buildConfigurationList = BDC5873516861646006ABDCB /* Build configuration list for PBXProject "prog3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BDC5873016861646006ABDCB;
+			productRefGroup = BDC5873C16861646006ABDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC5873A16861646006ABDCB /* prog3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDC5873716861646006ABDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC5874316861646006ABDCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDC5874816861646006ABDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BDC5874916861646006ABDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BDC5874B16861646006ABDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog3/prog3-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDC5874C16861646006ABDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "prog3/prog3-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDC5873516861646006ABDCB /* Build configuration list for PBXProject "prog3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC5874816861646006ABDCB /* Debug */,
+				BDC5874916861646006ABDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDC5874A16861646006ABDCB /* Build configuration list for PBXNativeTarget "prog3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC5874B16861646006ABDCB /* Debug */,
+				BDC5874C16861646006ABDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDC5873216861646006ABDCB /* Project object */;
+}

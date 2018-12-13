@@ -1,0 +1,7 @@
+#vim
+*~
+
+#object file
+*.o
+
+*.swp

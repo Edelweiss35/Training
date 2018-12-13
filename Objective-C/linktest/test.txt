@@ -1,0 +1,5 @@
+this is testing the link command in unix
+
+I just edited this file, lets see what happened
+ljkjlklskadjf:
+
